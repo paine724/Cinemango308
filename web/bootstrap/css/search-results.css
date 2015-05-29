@@ -1,0 +1,444 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 20, 2015, 6:35:20 PM
+    Author     : zeb
+*/
+
+/* global styles */
+.search-results .global-search-go {
+  margin-top: 0;
+}
+
+.search-results {
+  background: #ebebeb;
+}
+
+.page-header-container {
+  background: none;
+  margin-bottom: 0;
+}
+
+.page-header {
+  color: #4c4c4c;
+}
+
+.search-legend { 
+  /* border-radius: 4px; */
+  display: inline-block;
+  margin: 8px 0 17px;
+}
+
+.search-legend-nav {
+  border: 1px solid #929292;
+  color: #929292;
+  float: left;
+  padding: 13px 20px;
+  margin: 0 -1px -1px 0;
+  border-left: 1px solid #929292;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+.search-legend-nav:hover,
+.search-legend-nav.is-selected {
+  background-color: #f7f7f7;
+}
+
+.results-module {
+  margin-bottom: 50px;
+}
+
+.results-header {
+  background: #262626;
+  height: 60px;
+  max-height: 60px;
+  padding: 15px 20px;
+}
+
+.results-header-type {
+  color: #fff;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.results-match {
+  color: #929292;
+  margin: 10px 0 0 10px;
+}
+
+.results-more {
+  margin: 10px 0 0 0;
+}
+
+.results-list {
+  list-style: none;
+  margin: 0;
+}
+
+.results-container {
+  float: left;
+  margin-right: 20px;
+  position: relative;
+}
+
+.results-item {
+  background: #fff;
+  border: 1px solid #ccc;
+  margin: 5px 0 0 0;
+  overflow: hidden;
+  width: auto;
+  display: block;
+  min-height: 0;
+}
+
+.results-detail-headline {
+  font-size: 32px;
+  line-height: 29px;
+  margin-bottom: 1px;
+}
+
+.results-thumb {
+  display: block;
+  height: auto;
+  min-height: 200px;
+  min-width: 131px;
+}
+
+.results-detail {
+  background: #fff;
+  font-size: 14px;
+  padding: 20px 50px 5px 0;
+}
+
+.pagination {
+  margin: 15px 0 30px;
+}
+
+
+/* No Results */
+.no-results-message {
+  background: #FF7900;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.no-results-detail {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+}
+
+.no-results label {
+  color: #999;
+  display: inline-block;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 15px 0 0;
+  vertical-align: middle;
+}
+
+
+/* Cities Specific */
+.row .results-group {
+  padding: 0 20px;
+  margin-bottom: 40px;
+}
+
+.match-container {
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+}
+
+.match-container:first-child {
+  /* margin-right: 100px; */
+}
+
+.results-cities .results-detail {
+  border: 1px solid #ccc;
+  display: block;
+  margin: 5px 0 0 0;
+  overflow: auto;
+  padding: 20px 10px 10px;
+}
+
+.results-neighborhood {
+  margin-bottom: 1em;
+}
+
+.clarification-message {
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-style: italic;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.match-list {
+  font-size: 14px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0 0 28px;
+  padding: 0 20px 0 0;
+}
+
+.matches .match-list {
+  -ms-column-count: 2;
+  -ms-column-gap: 45px;
+  -moz-column-count: 2;
+  -moz-column-gap: 45px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 45px;
+  column-count: 2;
+  column-gap: 45px;
+}
+
+.match-list li {
+  min-width: 153px;
+  line-height: 24px;
+}
+
+.suggestions {
+  display: inline-block;
+  vertical-align: top;
+  width: 32%;
+}
+
+/* Movie Specific */
+.results-movies .results-detail-headline {
+  margin-bottom: 8px;
+}
+
+.results-movies .rating-container {
+  margin-bottom: 0px;
+}
+
+.results-movies .results-container {
+  color: #4c4c4c;
+  max-width: 131px;
+  width: 131px;
+  height: 200px;
+}
+
+.results-movies .results-detail {
+  margin-left: 131px;
+}
+
+.results-movies .movie-info-stats {
+  float: left;
+  width: 270px;
+  padding: 0 30px 0 0;
+}
+
+.results-movies .movie-info-details {
+  margin-left: 260px;
+}
+
+.movie-cast {
+  line-height: 17px;
+  margin-bottom: 30px;
+}
+
+.movie-presentation {
+  margin-bottom: 30px;
+  vertical-align: middle;
+}
+
+.movie-presentation-list {
+  display: inline-block;
+  font-size: 14px;
+  margin: 0;
+  list-style: none;
+}
+
+.movie-presentation-list > li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.movie-release-date,
+.movie-rating-runtime,
+.movie-genre {
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-style: italic;
+  line-height: 17px;
+}
+
+.movie-genre {
+  margin-bottom: 8px;
+}
+
+.movie-release-date {
+  margin: 0 0 5px 0;
+}
+
+.seeit-imax { 
+  background: transparent url(../img/imax.png) no-repeat 0 0;
+  display: inline-block;
+  height: 12px;
+  overflow: hidden;
+  text-indent: -66px;
+  width: 66px;
+  white-space: nowrap;
+}
+
+.seeit-imax3d {
+  background: transparent url(../img/imax-3d.png) no-repeat 0 0;
+  display: inline-block;
+  height: 12px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100px;
+  text-indent: -100px;
+}
+
+.btn-showtimes  {
+  margin: 0;
+  padding: 10px 20px;
+  width: auto;
+}
+
+/* Theatre Specific */
+.results-theaters .results-container {
+  background: #fff;
+  width: 300px;
+  height: 120px;
+  position: relative;
+}
+
+.results-theaters .results-container img {
+  bottom: 0;
+  display: block;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.results-theaters .results-detail {
+  margin-left: 318px;
+}
+
+.theater-address {
+  color: #4c4c4c;
+  line-height: 1;
+  margin-bottom: 3px;
+}
+
+.theater-phone a {
+  color: #929292;
+  line-height: 1;
+}
+
+.theater-logo {
+  float: right;
+}
+
+.map-link {
+  margin-top: 10px;
+}
+
+/* Cast + Crew Specific */
+.results-cast-crew .results-container {
+  max-width: 145px;
+  max-height: 200px;
+}
+
+.results-cast-crew .results-detail {
+  margin-left: 165px;
+}
+
+.def-biography {
+  color: #4c4c4c;
+  float: left;
+  font-size: 14px;
+  margin: 0 0 10px;
+}
+
+.def-biography dt {
+  float: left;
+  clear: left;
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 17px;
+  width: 68px;
+  margin-bottom: 5px;
+}
+
+.def-biography dt:after {
+  content: ":";
+}
+
+.def-biography dd {
+  margin: 0 0 5px 74px;
+  line-height: 17px;
+}
+
+/* Trailers + Clips Specific */
+.results-videos .results-thumb,
+.results-videos .results-container {
+  width: 308px;
+}
+
+.results-videos .results-container:after {
+  background: rgba(0, 0, 0, 0.55) no-repeat 58% 50%;
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.55);
+  content: "";
+  border-radius: 24px 24px 24px 24px;
+  border: 2px solid #fff;
+  display: block;
+  position: absolute;
+  margin: auto;
+  width: 48px;
+  height: 48px;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.results-videos .video-info {
+  padding-top: 10px;
+}
+
+.results-videos .results-detail {
+  margin-left: 328px;
+}
+
+/* Articles Specific */
+.results-articles .results-thumb,
+.results-articles .results-container {
+  width: 308px;
+}
+
+.results-articles .results-detail {
+  font-size: 14px;
+  margin-left: 328px;
+}
+
+.results-articles .snippet {
+  margin: 0;
+}
+
+.results-articles .byline {
+  color: #929292;
+}
+
+@media (max-width:1024px) {
+  .match-container {
+    width: 100%;
+  }
+}

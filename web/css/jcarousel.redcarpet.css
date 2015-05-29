@@ -1,0 +1,94 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 27, 2015, 8:30:44 PM
+    Author     : Philip
+*/
+.redcarpet-wrapper {
+    margin: 20px auto;
+    position: relative;
+    border: 10px solid #fff;
+    width: 1000px;
+    height: 1000px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999;
+    box-shadow: 0 0 2px #999;
+}
+
+/** Carousel **/
+
+.redcarpet {
+    position: relative;
+    overflow: hidden;
+}
+
+.redcarpet ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.redcarpet li {
+    float: left;
+    width: 300px;
+    height: 1000px;
+    margin-right: 1px;
+}
+
+.redcarpet img {
+    max-height: 900px;
+}
+
+.redcarpet .loading {
+    text-align: center;
+    line-height: 90px; /* Fake vertical aligning */
+}
+
+/** Carousel Controls **/
+
+.redcarpet-control-prev,
+.redcarpet-control-next {
+    position: absolute;
+    top: 35px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: #4E443C;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000;
+    font: 24px/27px Arial, sans-serif;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999;
+    box-shadow: 0 0 2px #999;
+}
+
+.redcarpet-control-prev {
+    left: -50px;
+}
+
+.redcarpet-control-next {
+    right: -50px;
+}
+
+.redcarpet-control-prev:hover span,
+.redcarpet-control-next:hover span {
+    display: block;
+}
+
+.redcarpet-control-prev.inactive,
+.redcarpet-control-next.inactive {
+    opacity: .5;
+    cursor: default;
+}

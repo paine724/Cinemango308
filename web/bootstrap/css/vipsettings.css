@@ -1,0 +1,150 @@
+.my-account {
+	padding-bottom: 20px;
+}
+
+.vip-password-field {
+	max-width: 550px;
+}
+
+.panel-group {
+	margin-bottom: 15px;
+}
+
+.panel.accordion-head {
+	padding-right: 58px;
+	position: relative;
+}
+
+.accordion-head {
+	cursor: pointer;
+}
+
+.accordion-head .heading-size-l {
+	margin-bottom: 0;
+	white-space: nowrap;
+}
+
+.accordion-closed {
+	display: none;
+}
+
+.sub-head {
+	font-style: italic;
+	margin-left: 20px;
+	color: #4d4d4d;
+	line-height: 30px;
+}
+
+.sub-head.double-line {
+	line-height: 16px;
+}
+
+.current-email {
+	margin-bottom: 20px;
+}
+
+.user-email-old {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.accordion-body .vip-password-field {
+	display: inline-block;
+}
+
+.forgot-email {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.graphic-checkbox-slider:after {
+	content: 'ON';
+}
+
+.graphic-checkbox-slider span {
+	position: absolute;
+	top: 0;
+	right: 0;
+	line-height: 38px;
+	padding-right: 12px;
+	z-index: 0;
+	color: #fff;
+}
+
+:checked + .graphic-checkbox-slider span {
+	z-index: -1;
+}
+
+.accordion-arrow {
+	margin-top: 10px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 20px;
+	height: 20px;
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIxNHB4IiBoZWlnaHQ9IjlweCIgdmlld0JveD0iMCAwIDE0IDkiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDE0IDk7IiB4bWw6c3BhY2U9InByZXNlcnZlIj48c3R5bGUgdHlwZT0idGV4dC9jc3MiPi5zdDB7ZmlsbDojNUNBMkQ4O308L3N0eWxlPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik03LjMsOWwzLjEtMy4xTDExLDUuM2wyLjktMi45YzAuMS0wLjMsMC4xLTAuNi0wLjEtMC44bC0xLjUtMS41Yy0wLjMtMC4yLTAuNi0wLjItMC45LDBMOC4xLDMuNUw4LDMuNmgwTDcuMyw0LjJjLTAuMiwwLjEtMC41LDAuMS0wLjcsMEw2LDMuNUwyLjUsMC4xQzIuMi0wLjEsMS45LDAsMS42LDAuMkwwLjIsMS42QzAsMS44LTAuMSwyLjIsMC4xLDIuNWwzLjQsMy40bDEuNiwxLjZsMS41LDEuNEM2LjgsOSw3LjEsOSw3LjMsOXoiLz48L3N2Zz4=);
+ /*/redesign/static/img/icon-down-arrow.svg*/
+	background-repeat: no-repeat;
+	background-size: 20px;
+}
+
+.accordion-arrow.accordion-opened {
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAxNCA5IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxNCA5IiB4bWw6c3BhY2U9InByZXNlcnZlIj48cGF0aCBmaWxsPSIjNUNBMkQ4IiBkPSJNNi42LDAuMUw1LjEsMS41TDMuNSwzTDAuMSw2LjVDLTAuMSw2LjgsMCw3LjIsMC4yLDcuM2wxLjQsMS40YzAuMywwLjIsMC42LDAuMywwLjksMC4xTDYsNS41bDAuNi0wLjdjMC4yLTAuMSwwLjUtMC4xLDAuNywwTDgsNS40bDAsMGwwLjEsMC4xbDMuMywzLjRjMC4zLDAuMiwwLjYsMC4yLDAuOSwwbDEuNS0xLjVDMTQsNy4yLDE0LDYuOCwxMy45LDYuNkwxMSwzLjZMMTAuNCwzTDcuMywwQzcuMSwwLDYuOCwwLDYuNiwwLjF6Ii8+PC9zdmc+);
+ /*/redesign/static/img/icon-up-arrow.svg*/;
+}
+
+.hide {
+	display: none !important;
+}
+
+.right-40 {
+	padding-top: 40px !important;
+	text-align: right;
+}
+
+.right-25 {
+	padding-top: 25px;
+	text-align: right;
+}
+
+.credit-card-logos {
+	margin-bottom: 20px;
+}
+
+.credit-card-logos span {
+	background: url("../../../../images/express/credit-card-sprite.png") no-repeat scroll 0 0 transparent;
+	display: inline-block;
+	margin: 0;
+	vertical-align: middle;
+	margin-right: 9px;
+}
+
+.credit-card-logos .visa {
+	background-position: 0 0;
+	height: 38px;
+	width: 53px;
+}
+
+.credit-card-logos .amex {
+	background-position: 0 -204px;
+	height: 29px;
+	width: 49px;
+}
+
+.credit-card-logos .mastercard {
+	background-position: 0 -77px;
+	height: 33px;
+	width: 52px;
+}
+
+.credit-card-logos .discover {
+	background-position: 0 -110px;
+	height: 32px;
+	width: 51px;
+}
+
+.credit-card-logos .citi {
+	background-position: 0 -233px;
+	height: 32px;
+	width: 51px;
+}

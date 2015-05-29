@@ -1,0 +1,52 @@
+{
+    "items": [
+        {
+            "src": "http://sorgalla.com/jcarousel/examples/_shared/img/img1.jpg",
+            "title": "Image 1"
+        },
+        {
+            "src": "http://sorgalla.com/jcarousel/examples/_shared/img/img2.jpg",
+            "title": "Image 2"
+        },
+        {
+            "src": "http://sorgalla.com/jcarousel/examples/_shared/img/img3.jpg",
+            "title": "Image 3"
+        },
+        {
+            "src": "http://sorgalla.com/jcarousel/examples/_shared/img/img4.jpg",
+            "title": "Image 4"
+        },
+        {
+            "src": "http://sorgalla.com/jcarousel/examples/_shared/img/img5.jpg",
+            "title": "Image 5"
+        },
+        {
+            "src": "http://sorgalla.com/jcarousel/examples/_shared/img/img6.jpg",
+            "title": "Image 6"
+        },
+        {
+            "src": "http://sorgalla.com/jcarousel/examples/_shared/img/img6.jpg",
+            "title": "Image 6"
+        },
+        {
+            "src": "http://sorgalla.com/jcarousel/examples/_shared/img/img6.jpg",
+            "title": "Image 6"
+        },
+        {
+            "src": "http://sorgalla.com/jcarousel/examples/_shared/img/img6.jpg",
+            "title": "Image 6"
+        },
+        {
+            "src": "http://sorgalla.com/jcarousel/examples/_shared/img/img6.jpg",
+            "title": "Image 6"
+        },
+        {
+            "src": "http://sorgalla.com/jcarousel/examples/_shared/img/img6.jpg",
+            "title": "Image 6"
+        },
+        {
+            "src": "http://sorgalla.com/jcarousel/examples/_shared/img/img6.jpg",
+            "title": "Image 6"
+        }
+    ]
+}

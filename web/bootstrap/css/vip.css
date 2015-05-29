@@ -1,0 +1,40 @@
+/*START ADDITIONAL STLYES*/
+@media only screen and (min-width: 0em) {
+    .page-header-container {
+        background-image: url(../img/bg-header-vip.jpg);
+    }
+    .vip-logo {
+        text-indent: -999em;
+        background: transparent url(../img/logo-fandango-vip.png) no-repeat 0 0;
+    }
+    .site-wrap .page .insider-perks {
+        margin-bottom: 30px;
+    }
+	.sub-head { color: #f15500; }
+	
+	.insider-perk { float: left !important; }
+	.insider-perk-container { display:inline-block; width: 100%; }
+
+    /*start movie screenings*/
+    .movie-screenings .section-header {
+        margin-top: 30px;
+    }
+    .screenings-header {
+        background: #333 url(../img/movie-screenings-header-bg.jpg) no-repeat scroll center 0 / cover;
+        text-align: center;
+        overflow: hidden;
+        min-height: 130px;
+    }
+    .screenings-header .heading-style-1,
+    .screenings-header .heading-style-2 {
+        color: #fff;
+    }
+    .screenings-header .heading-style-1 {
+        margin-top: 35px;
+    }
+    .movie-screenings .movie-screenings-img {
+        margin-bottom: 15px;
+    }
+    /*end movie screenings*/
+}
+/*END ADDITIONAL STLYES*/

@@ -1,0 +1,485 @@
+label {
+  color: #929292;
+}
+
+.my-account {
+  background: #ebebeb;
+}
+
+.page-header-emphasis {
+  margin-left: 0.1em;
+}
+
+form .row .overview-grouping {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.panel {
+  padding: 20px 20px 15px;
+  width: 100%;
+}
+
+.panel-group {
+  margin-bottom: 40px;
+}
+.panel-group .panel {
+  border-width: 0 1px 1px 1px; 
+}
+
+.panel-group .panel:first-child {
+  border-width: 1px;
+}
+
+.panel .heading-size-l {
+  margin-bottom: 11px
+}
+.special-note {
+  margin: 0 0 5px;
+}
+
+.ad-topbanner { min-height: 0; padding: 0; }
+
+.overview-grouping-heading {
+  margin-bottom: 4px;
+}
+
+.my-account-summary-container {
+
+  clear: both;
+  margin: 0 0 30px 0;
+  overflow: hidden;
+}
+.my-account-user {
+  background: #333;
+  width: 36.7%;
+  margin: 0 0 5px 0;
+  min-height: 136px;
+  float: left;
+  overflow: hidden;
+}
+.my-account-username {
+  color: #fff;
+  display: inline-block;
+  max-width: 180px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.my-account-user-basic-info {
+  color: #ebebeb;
+  margin-left: 136px;
+  padding: 15px 0 0 15px;
+}
+.my-account-user-avatar {
+  width: 136px;
+  height: 136px;
+  float: left;
+}
+
+.dimension-count {
+  border: 1px solid #4aa7f6;
+  border-radius: 36px;
+  color: #4aa7f6;
+  margin: 15px auto;
+  width: 72px;
+  height: 72px;
+  text-align: center;
+  line-height: 77px;
+  letter-spacing: -1px;
+}
+
+.dimension-label {
+  background: #4aa7f6;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px 0;
+  text-align: center;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.my-account-user-dimension {
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 0 0 0 3px;
+  position: relative;
+  float: left;
+  min-height: 136px;
+  width: 15.42%;
+}
+.my-account-side-panel {
+  overflow: hidden;
+  margin: 0 0 20px 0;
+  padding: 15px;
+}
+
+.my-account-side-panel .heading-style-1 {
+  margin-bottom: 15px;
+}
+
+.see-all {
+  float: right;
+  margin-top: 10px;
+}
+.emphasis {
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1;
+}
+.de-emphasis {
+  color: #929292;
+}
+
+.pagination {
+  margin-top: 15px;
+}
+
+/* General Rules */
+.results-list {
+  list-style: none; 
+  margin: 0;
+}
+
+.results-item {
+  background: #fff;
+  border: 1px solid #ccc;
+  margin: 5px 0 0 0;
+  overflow: hidden;
+  position: relative;
+  display: table;
+  width: 100%;
+}
+.results-item:first-child {
+  margin-top: 0;
+}
+.results-container {
+  position: relative;
+  width: 134px;
+  display: table-cell;
+}
+.results-detail-headline {
+  font-size: 32px;
+  line-height: 29px;
+  margin-bottom: 1px;
+}
+
+.results-thumb {
+  display: block;
+  height: 100%;
+}
+
+.results-detail {
+  background: #fff;
+  display: table-cell;
+  font-size: 14px;
+  padding: 20px 10px 5px 0;
+  vertical-align: top;
+  width: auto;
+}
+.results-detail-headline {
+  margin-bottom: 8px;
+}
+
+.rating-container {
+  margin-bottom: 8px;
+}
+
+.results-container {
+  color: #4c4c4c;
+  max-width: 134px;
+}
+.movie-info-stats {
+  width: 184px;
+  display: table-cell;
+  padding: 20px 20px 5px;
+  vertical-align: top;
+}
+.additional-info-details {
+  width: auto;
+  display: table-cell;
+  padding: 20px 20px 5px;
+  position: relative;
+  vertical-align: top;
+  border-left: 1px solid #ccc;
+}
+.additional-info-details .heading-style-1 {
+  margin-bottom: 15px;
+}
+.theater-details {
+  margin: 15px 0;
+  line-height: 1;
+}
+.cant-make-show{
+  vertical-align: top;
+  line-height:35px;
+}
+
+
+/* My Theaters */
+.results-theaters .results-item {
+  margin-top: 0;
+  border-width: 0 1px 1px 1px;
+  padding: 20px 20px 15px;
+}
+
+.results-theaters .results-item:first-child {
+  border-width: 1px;
+}
+.results-theaters .heading-size-m {
+  display: inline-block;
+}
+
+.results-movies .visual-list-container {
+  margin: 5px 0;
+}
+
+/* My Reviews */
+.results-reviews .additional-info-details .heading-size-l {
+  width: 87%;
+}
+.results-reviews .additional-info-details {
+  border: none;
+}
+.review-controls {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.review-control {
+  background: #4aa7f6;
+  margin: 0 3px;
+  display: inline-block;
+  line-height: 1;
+}
+.btn-delete {
+  background: transparent url(../../../static/img/icon-delete.svg) no-repeat 50% 50%;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  text-indent: 14px;
+  overflow: hidden;
+}
+
+.btn-edit {
+  background: transparent url(../../../static/img/icon-edit.svg) no-repeat 50% 50%;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  text-indent: 15px;
+  overflow: hidden;
+}
+
+.link-cta { line-height: 38px; vertical-align: top; white-space: nowrap; }
+
+.review-delete-modal .heading-style-1 {
+  margin-bottom: 10px;
+}
+
+.review-delete-modal {
+  text-align: center;
+  z-index: 1000001;
+}
+.review-delete-modal .btn {
+  margin: 0 5px;
+}
+
+/* Payment Method Side */
+.card-details,
+.rewards-card-details {
+  margin-bottom: 30px;
+}
+
+/* Account Settings */
+.user-display-name {
+  max-width: 40%;
+}
+.user-birth-month,
+.user-birth-day,
+.user-birth-year,
+.user-age,
+.user-card-month,
+.user-card-year,
+.user-card-type {
+  display: inline-block;
+  width: 130px;
+  margin-right: 10px;
+}
+
+.user-zip {
+  max-width: 170px;
+}
+
+.user-email,
+.user-password,
+.user-rewards-card {
+  max-width: 50%;
+}
+.user-email-old {
+  margin: -5px 0 15px;
+}
+.checkbox-grouping {
+  list-style: none;
+  margin: -8px 0 0 0;
+  list-style: 0;
+  width: 600px;
+  -ms-column-count: 2;
+  -ms-column-gap: 45px;
+  -moz-column-count: 2;
+  -moz-column-gap: 45px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 45px;
+  column-count: 2;
+  column-gap: 45px;
+}
+
+.sub-header {
+  margin: -12px 0 20px;
+}
+
+.graphic-checkbox-container {
+  margin: 0 0 18px 0;
+}
+.graphic-checkbox .heading-size-m {
+  width: 229px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 3px;
+}
+
+.graphic-checkbox {
+  display: inline-block;
+}
+
+.graphic-checkbox input {
+  visibility: hidden;
+}
+
+.graphic-checkbox-container .special-note {
+  max-width: 229px;
+  margin-top: -4px;
+}
+
+.graphic-checkbox-slider {
+  background: #ccc;
+  border: 1px solid #ccc;
+  display: inline-block;
+  cursor: pointer;
+  padding-right: 50px;
+  transition: all ease 0.2s;
+  -webkit-transition: all ease 0.2s;
+  border-radius: 4px;
+  /* box-shadow: inset 0 0 1px rgba(0,0,0,.5);*/
+  vertical-align: middle;
+  position: relative;
+}
+
+.graphic-checkbox-slider:before {
+  display: block;
+  content: '';
+  width: 50px;
+  height: 36px;
+  border-radius: 4px;
+  background: white;
+  /*box-shadow: 0 1px 2px rgba(0,0,0,.5);*/
+}
+
+.graphic-checkbox-slider:after {
+  display: block;
+  content: 'YES';
+  color: #fff;
+  position: absolute;
+  top: 9px;
+  left: 12px;
+}
+
+:checked + .graphic-checkbox-slider {
+  position: relative;
+  padding-right: 0;
+  padding-left: 50px;
+  background: #fe7900;
+  border: 1px solid #fe7900;
+  border-radius: 4px 4px 4px 4px;
+  /* box-shadow: inset 0 0 1px rgba(0,0,0,.5), inset 0 0 40px #fe7900;*/
+}
+
+.panel-fantext .heading-style-1 {
+  margin-bottom: 10px;
+}
+.panel-fantext .special-note {
+  margin-bottom: 10px;
+}
+
+.panel-fantext p.special-note {
+  margin-bottom: 30px;
+}
+
+.user-dimension {
+  position: relative;
+}
+
+.user-dimension:before {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  width: 91px;
+  height: 56px;
+  margin-left: 30px;
+}
+
+.cardid-7:before {
+  background-image: url(../img/theater-rewards-amc.png);
+}
+.cardid-5:before {
+  background-image: url(../img/theater-rewards-regal.png);
+}
+.cardid-21:before {
+  background-image: url(../img/theater-rewards-cobb.png);
+}
+.cardid-40:before {
+  background-image: url(../img/theater-rewards-extras.png);
+}
+.cardid-23:before {
+  background-image: url(../img/theater-rewards-wehrenberg.png);
+}
+.cardid-55:before {
+  background-image: url(../img/theater-rewards-pennperks.png);
+}
+.cardid-56:before {
+  background-image: url(../img/theater-rewards-pennperks.png);
+}
+.cardid-48:before {
+  background-image: url(../img/theater-rewards-reel.png);
+}
+.cardid-49:before {
+  background-image: url(../img/theater-rewards-reel.png);
+}
+.cardid-46:before {
+  background-image: url(../img/theater-rewards-cinema-west.png);
+}
+.cardid-34:before {
+   background-image: url("../img/theater-rewards-carmike.png"); 
+}
+
+@media only screen and (max-width: 790px) {
+  .my-account-user {
+    width: 100%;
+    float: none;
+  }
+  .my-account-user-dimension {
+    width: 25%;
+    margin: 0;
+  }
+  .user-email,
+  .user-password {
+    max-width: 100%;
+  }
+}

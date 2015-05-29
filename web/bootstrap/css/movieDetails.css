@@ -1,0 +1,246 @@
+/********************
+Movie Details Section
+********************/
+.movie-detail-section {
+  background: transparent;
+  color: #ccc;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.fan-grid-content .movie-detail-section {
+  width: 31.58%;
+}
+
+.movie-poster img {
+  width: 100%;
+  height: 100%;
+}
+
+.movie-poster,
+.movie-poster img {
+  width: 165px;
+  height: 250px;
+}
+
+.movie-poster {
+  background-color:black;
+  background-size: cover;
+  width: 20%;
+  height: auto;
+  float: left;
+  overflow:hidden;
+}
+
+.no-touch .movie-poster img:hover {
+    opacity: .65;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+ }
+
+.movie-poster img{
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.movie-offers-area {
+  max-width: 100%;
+}
+
+.movie-detail-section-wrapper {
+  background: #262626;
+}
+
+.movie-detail-container {
+  height: 100%;
+  /*margin-left: 54.66%;*/
+  width: auto;
+  background:#262626;
+}
+
+.movie-offers {
+  clear: both;
+}
+
+.movie-detail {
+  width: 100%;
+  text-align: center;
+  min-height: 250px;
+  position: relative;
+  font-family: "Times New Roman";
+  font-style: italic;
+}
+.movie-detail .rating-container {
+padding-top: 15px;
+}
+.movie-detail-list{
+margin: 0;
+padding: 0;
+list-style-type: none;
+font-size: 0.929em;
+line-height: 1.4;
+padding-bottom: 15px;
+}
+.movie-detail-release-status
+{
+padding-top: 15px;
+}
+.movie-detail-release-date {
+color: #FFF;
+text-transform: uppercase;
+font-family: "alternate-gothic-no-1-d", "Futura Condensed", "Arial Narrow", Arial, sans-serif;
+font-size: 1.857em;
+line-height: 1;
+margin-bottom: 5px;
+margin-top: 5px;
+font-style: normal;
+}
+.movie-detail-release-date-note{
+font-style: normal;
+font-family:"proxima-nova", Helvetica, Arial, sans-serif;
+font-size: 12px;
+padding: 0 10px;
+}
+
+/*  Movie format section */
+.movie-format-section{
+color: #7c7c7c;
+vertical-align: center;
+text-align: center;
+font-size: 0;
+padding: 0;
+position: absolute;
+bottom:4px;
+width: 100%;
+}
+.movie-format-header{
+font-size: 12px;
+padding-bottom: 5px;
+}
+.movie-formats span {
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: none;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 2px 4px 2px 4px;
+}
+
+span.seeit_35mm{
+
+}
+span.seeit_digital3d{
+}
+.movie-formats span.seeit_imax{
+  text-indent: -999999px;
+  background: url(../../../static/img/icon-amenity-imax-grey.svg)  0 0 no-repeat;
+  background-size: contain;
+  width: 72px; 
+  height: 14px;
+  width: 43.2px; 
+  height: 8.4px;
+  
+}
+.movie-formats span.seeit_imax3d{
+  text-indent: -999999px;
+  background: url(../../../static/img/icon-amenity-imax3d-grey.svg) 0 0 no-repeat;
+  background-size: contain;
+  width: 114px;
+  height: 14px;
+  width: 68.4px;
+  height: 8.4px;
+ 
+}
+span.seeit_hfr{
+  font-size: 12px;
+}
+span.seeit_hfr3d{
+  font-size: 12px;
+  word-spacing: -0.05em;
+}
+span.seeit_hfrimax3d{
+  font-size: 12px;
+  word-spacing: -0.1em;
+}
+.movie-formats-reald3d{
+ vertical-align: middle;
+ height: 40px;
+ padding-top: 3px;
+ width: 100%;
+ clear:both;
+ background: rgba(51, 51, 51, 0.9); 
+}
+.reald3d-text{
+ vertical-align: middle;
+ color: #cccccc;
+ font-size: 14px;
+}
+
+.movie-formats-reald3d span.seeit_reald3d{
+  text-indent: -999px;
+  overflow: hidden; 
+  background: url(../../../static/img/icon-reald3d.svg) 0 0 no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 28px;
+  margin: 0 0 0 7px;
+  display:inline-block;
+  vertical-align: middle;
+
+}
+
+.movie-format-type {
+  display: inline-block;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  vertical-align: middle;
+  padding: 0 6px;
+  margin-left: 6px;
+}
+
+/*  End Movie format section */
+                                                                                                   
+
+
+/* Offers Section */
+.movie-offers h3{
+  color: #FFF;
+  font-size: 24px;
+}
+
+.movie-offers {
+ text-align: left;
+}
+
+@media only screen and (max-width: 1024px) {
+  .movie-poster {
+    width: 164px;
+  }
+  .movie-detail-container {
+    width: auto;
+    margin: 0 0 0 164px;
+  }
+}
+
+@media only screen and (max-width: 768px) { 
+  .fan-grid-content .movie-detail-section {
+    position: absolute;
+    height: auto;
+    width: 24%;
+  }
+}
